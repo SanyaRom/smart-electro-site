@@ -3,120 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Інтернет-магазин електротоварів та смарт-гаджетів для дому. Купуйте найкращі пристрої за вигідними цінами.">
-    <meta name="keywords" content="електротовари, смарт-гаджети, інтернет-магазин, гаджети для дому">
-    <meta name="author" content="SmartElectro">
-    <title>Інтернет-магазин електротоварів</title>
+    <title>Мій Інтернет-магазин</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <div class="logo">Магазин</div>
         <nav>
             <ul>
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Товари</a></li>
-                <li><a href="#">Контакти</a></li>
-                <li><a href="#">Про нас</a></li>
+                <li><a href="#products">Товари</a></li>
+                <li><a href="#reviews">Відгуки</a></li>
+                <li><a href="#contact">Контакти</a></li>
             </ul>
         </nav>
     </header>
 
-    <section class="hero">
-        <h1>Ласкаво просимо до SmartElectro</h1>
-        <p>Ваш надійний постачальник електротоварів та смарт-гаджетів для дому</p>
-        <button>Переглянути товари</button>
+    <section id="hero">
+        <h1>Ласкаво просимо в наш інтернет-магазин!</h1>
+        <p>Найкращі товари за доступними цінами!</p>
     </section>
 
-    <section class="products">
-        <h2>Наші товари</h2>
+    <section id="products">
+        <h2>Наші Товари</h2>
         <div class="product-list">
-            <!-- Товари тут будуть відображатися -->
+            <!-- Приклад товару -->
+            <div class="product-item">
+                <img src="images/product1.jpg" alt="JBL Tune 720BT">
+                <h3>JBL Tune 720BT</h3>
+                <p>Бездротові накладні навушники JBL Tune 720BT забезпечують потужне звучання та комфорт під час тривалого використання. Вони оснащені Bluetooth 5.0 для швидкого та стабільного з'єднання. Завдяки складаній конструкції, їх зручно брати з собою в подорожі.</p>
+                <p class="price"><span class="old-price">1 999 ₴</span> 1 499 ₴</p>
+                <button class="add-to-cart">Додати до кошика</button>
+            </div>
+            <!-- Повторюємо блоки для інших товарів -->
         </div>
     </section>
 
-    <footer>
-        <p>&copy; 2025 SmartElectro. Всі права захищені.</p>
-    </footer>
-
-    <script>
-        // Сюди можна додавати JavaScript код для функціональності
-    </script>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Інтернет-магазин електротоварів та смарт-гаджетів для дому. Купуйте найкращі пристрої за вигідними цінами.">
-    <meta name="keywords" content="електротовари, смарт-гаджети, інтернет-магазин, гаджети для дому">
-    <meta name="author" content="SmartElectro">
-    <title>Інтернет-магазин електротоварів</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Товари</a></li>
-                <li><a href="#">Контакти</a></li>
-                <li><a href="#">Про нас</a></li>
-            </ul>
-        </nav>
-    </header>
-
-    <section class="hero">
-        <h1>Ласкаво просимо до SmartElectro</h1>
-        <p>Ваш надійний постачальник електротоварів та смарт-гаджетів для дому</p>
-        <button>Переглянути товари</button>
-    </section>
-
-    <section class="products">
-        <h2>Наші товари</h2>
-        <div class="product-list">
-            <!-- Товари -->
-            <div class="product">
-                <img src="mouse.jpg" alt="Комп'ютерна миша">
-                <h3>Комп'ютерна миша</h3>
-                <p>Безпровідна миша для комп'ютера, з ергономічним дизайном та тривалим терміном служби.</p>
-                <p><strong>Ціна:</strong> 599 грн</p>
-                <button>Купити</button>
+    <section id="reviews">
+        <h2>Відгуки</h2>
+        <div class="reviews">
+            <div class="review">
+                <p>"Чудовий товар! Рекомендую."</p>
+                <p>- Іван</p>
             </div>
-
-            <div class="product">
-                <img src="keyboard.jpg" alt="Клавіатура">
-                <h3>Клавіатура</h3>
-                <p>Механічна клавіатура з підсвіткою для зручного набору тексту.</p>
-                <p><strong>Ціна:</strong> 1299 грн</p>
-                <button>Купити</button>
-            </div>
-
-            <div class="product">
-                <img src="headphones.jpg" alt="Безпровідні навушники">
-                <h3>Безпровідні навушники</h3>
-                <p>Навушники з гарним звуком та зручним дизайном для тривалого прослуховування.</p>
-                <p><strong>Ціна:</strong> 1999 грн</p>
-                <button>Купити</button>
-            </div>
-
-            <div class="product">
-                <img src="powerbank.jpg" alt="Павербанк">
-                <h3>Павербанк</h3>
-                <p>Мобільний павербанк ємністю 10000 мАг для зарядки ваших пристроїв в будь-який час.</p>
-                <p><strong>Ціна:</strong> 899 грн</p>
-                <button>Купити</button>
+            <div class="review">
+                <p>"Дуже задоволений покупкою!"</p>
+                <p>- Олена</p>
             </div>
         </div>
     </section>
 
+    <section id="contact">
+        <h2>Контакти</h2>
+        <p>Телефон: +380XXXXXXXXX</p>
+        <p>Email: example@example.com</p>
+        <p>Адреса: вул. Примерна 1, Київ, Україна</p>
+    </section>
+
     <footer>
-        <p>&copy; 2025 SmartElectro. Всі права захищені.</p>
+        <p>&copy; 2025 Мій Інтернет-магазин. Всі права захищено.</p>
     </footer>
 
-    <script>
-        // Сюди можна додавати JavaScript код для функціональності
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
